@@ -48,7 +48,7 @@ def registro_entrada():
 
 def registro_salida():
     try:
-        num_hab = int(input("Número de Cuartos en el que se hospedo: "))
+        num_hab = int(input("Número de Cuarto en el que se hospedo: "))
         dias = int(input("Cantidad de dias que se hospedo: "))
     
         for hab in Cuartos:
@@ -64,7 +64,7 @@ def registro_salida():
                     
                         print(f"Salida Registrada. Total a pagar: ${total}")
                         return
-        print("No se encontró un huésped en ese Cuartos.")
+        print("No se encontró un huésped en ese Cuarto.")
     except ValueError:
         print("Error: Ingrese un número válido.")
 
