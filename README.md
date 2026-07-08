@@ -19,3 +19,12 @@ Es un sistema cuyo objetivo es permitir al usuario reservar una habitación de h
 Hacé clic en el siguiente enlace para ver el video con la demostración funcional de la app:
 
 👉 **[Ver Video de la Demo Aquí](URL_DEL_VIDEO_ACA)**
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+1. Clonar este repositorio.
+2. Abrir la terminal en la carpeta del proyecto.
+3. Ejecutar el archivo principal con el comando:
+```bash
+python src/main.py
