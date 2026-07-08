@@ -1,10 +1,16 @@
-
 Cuartos = [
     {"numero": 101, "tipo": "Simple", "precio": 500000, "disponible": True},
     {"numero": 102, "tipo": "Doble", "precio": 800000, "disponible": True},
     {"numero": 201, "tipo": "Suite", "precio": 1500000, "disponible": True}
 ]
 huespedes_activos = []
+def Participantes():
+    print("\n--- Miembros ---")
+    print("Tourn, Tomás Joaquín")
+    print("Hernández Suárez, Augusto Iván")
+    print("Iván Crespin, Victor Joel")
+    print("Gonzalez, Nayla Aylén")
+    print("Perez, Lautaro Nahuel")
 
 def Num_dni():
     while True:
@@ -15,7 +21,6 @@ def Num_dni():
         else:
             print("Error: El DNI ingresado no es válido.")
     
-
 def mostrar_disponibles():
     print("\n--- Cuartos Disponibles ---")
     for hab in Cuartos:
@@ -89,7 +94,9 @@ while True:
     
     opcion = input("Seleccione una opción: ")
     
-    if opcion == "1":
+    if opcion == "0":
+        Participantes()
+    elif opcion == "1":
         mostrar_disponibles()
     elif opcion == "2":
         registro_entrada()
@@ -99,6 +106,6 @@ while True:
         mostrar_estadisticas()
     elif opcion == "5":
         print("Saliendo del sistema...")
-        break # Finaliza el bucle
+        break
     else:
         print("Opción no válida.")
