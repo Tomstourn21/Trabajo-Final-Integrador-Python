@@ -48,7 +48,7 @@ def registro_entrada():
 
 def registro_salida():
     try:
-        num_hab = int(input("Número de Cuarto en el que se hospedo: "))
+        num_hab = int(input("Número de Cuarto5 en el que se hospedo: "))
         dias = int(input("Cantidad de dias que se hospedo: "))
     
         for hab in Cuartos:
