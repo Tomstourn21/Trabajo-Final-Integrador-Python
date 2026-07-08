@@ -18,7 +18,8 @@ Es un sistema cuyo objetivo es permitir al usuario reservar una habitación de h
 ## 📺 Video de la Demo
 Hacé clic en el siguiente enlace para ver el video con la demostración funcional de la app:
 
-👉 **[Ver Video de la Demo Aquí]([(https://drive.google.com/file/d/1TtE-VccC0ajugSQs_XmylMTR7zHUdmQi/view?usp=drive_link)])**
+👉 **[Ver Video de la Demo Aquí]**
+https://drive.google.com/file/d/1TtE-VccC0ajugSQs_XmylMTR7zHUdmQi/view?usp=drive_link
 
 ---
 
