@@ -27,3 +27,6 @@ https://drive.google.com/file/d/1TtE-VccC0ajugSQs_XmylMTR7zHUdmQi/view?usp=drive
 1. Clonar este repositorio.
 2. Abrir la terminal en la carpeta del proyecto.
 3. Hacerle click a Run Python File situado en la esquina derecha superior en el Visual Studio Code.
+
+## IAs utilizadas
+Gemini: Se utilizó para resolver problemas técnicos en la computadora de uno de los integrantes y nada más.
