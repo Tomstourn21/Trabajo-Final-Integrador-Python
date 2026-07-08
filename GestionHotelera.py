@@ -1,3 +1,4 @@
+
 Cuartos = [
     {"numero": 101, "tipo": "Simple", "precio": 500000, "disponible": True},
     {"numero": 102, "tipo": "Doble", "precio": 800000, "disponible": True},
@@ -48,7 +49,7 @@ def registro_entrada():
 
 def registro_salida():
     try:
-        num_hab = int(input("Número de Cuarto5 en el que se hospedo: "))
+        num_hab = int(input("Número de Cuartos en el que se hospedo: "))
         dias = int(input("Cantidad de dias que se hospedo: "))
     
         for hab in Cuartos:
@@ -64,7 +65,7 @@ def registro_salida():
                     
                         print(f"Salida Registrada. Total a pagar: ${total}")
                         return
-        print("No se encontró un huésped en ese Cuarto.")
+        print("No se encontró un huésped en ese Cuartos.")
     except ValueError:
         print("Error: Ingrese un número válido.")
 
@@ -74,9 +75,9 @@ def mostrar_estadisticas():
     for hab in Cuartos:
         if not hab["disponible"]:
             ocupadas += 1
-    
+    porcentaje = (ocupadas / total_hab) * 100
     print(f"\n--- Estadísticas ---")
-    print(f"Ocupación actual: {ocupadas} de {total_hab} Cuartos")
+    print(f"Ocupación actual: {porcentaje}% ({ocupadas}/{total_hab} habitaciones)")
 
 while True:
     print("\n--- SISTEMA DE GESTIÓN HOTELERA ---")
